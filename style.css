@@ -85,9 +85,49 @@ ul {
   text-align: center;
   justify-content: center;
   padding-left: 70px;
+  margin-bottom: 50px;
 }
 
 .showcase h2,
 .showcase p {
   margin-bottom: 10px;
+}
+
+/* Home cards */
+
+.home-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 1.5rem;
+}
+
+.home-cards img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.home-cards h3 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  padding-top: 1px;
+  padding-bottom: 2px;
+}
+
+.home-cards a {
+  font-size: 15px;
+  display: inline-block;
+  padding-top: 10px;
+  color: #0067b8;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+.home-cards a i {
+  transition: all 0.2s;
+}
+
+.home-cards a:hover i {
+  margin-left: 10px;
 }
